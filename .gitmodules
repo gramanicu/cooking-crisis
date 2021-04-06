@@ -1,0 +1,6 @@
+[submodule "food-crisis-api"]
+	path = api
+	url = git@github.com:gramanicu/food-crisis-api.git
+[submodule "food-crisis-web"]
+	path = web
+	url = git@github.com:gramanicu/food-crisis-web.git
