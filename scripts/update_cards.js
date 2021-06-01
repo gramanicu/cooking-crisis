@@ -4,6 +4,8 @@ var Cards = require('../game_material/cards');
 const readline = require('readline-sync');
 var url = readline.question("Insert MongoDB URL:\n");
 
+
+
 const clientInstance = MongoClient.connect(url, function(err, db) {
     if (err) throw err;
     var dbo = db.db("cookingCrisis");

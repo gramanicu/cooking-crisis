@@ -3,7 +3,6 @@ FlavorClass = require('./flavorClasses')
 MinionTypes = require('./minionTypes')
 SpellEffects = require('./spellEffects')
 
-
 module.exports = [
     //-------------     Minions      ---------------//
 
@@ -19,7 +18,7 @@ module.exports = [
         "class": FlavorClass.Hot,
         "cost": 3,
         "hp": 1,
-        "atack": 4,
+        "attack": 4,
     },
 
     {
@@ -31,7 +30,7 @@ module.exports = [
         "class": FlavorClass.Hot,
         "cost": 1,
         "hp": 1,
-        "atack": 2
+        "attack": 2
     },
 
 
@@ -46,7 +45,19 @@ module.exports = [
         "class": FlavorClass.Bitter,
         "cost": 4,
         "hp": 6,
-        "atack": 2
+        "attack": 2
+    },
+
+    {
+        "key": "grapefruit",
+        "name": "Raw Grapefruit",
+        "image": "https/ceva/ceva",
+        "type": CardTypes.Minion,
+        "minion_type": MinionTypes.Ingredient,
+        "class": FlavorClass.Bitter,
+        "cost": 3,
+        "hp": 6,
+        "attack": 2
     },
 
     {
@@ -58,7 +69,7 @@ module.exports = [
         "class": FlavorClass.Bitter,
         "cost": 1,
         "hp": 3,
-        "atack": 1
+        "attack": 1
     },
 
     {
@@ -70,7 +81,7 @@ module.exports = [
         "class": FlavorClass.Bitter,
         "cost": 3,
         "hp": 6,
-        "atack": 2
+        "attack": 2
     },
 
 
@@ -85,19 +96,19 @@ module.exports = [
         "class": FlavorClass.Sweet,
         "cost": 3,
         "hp": 4,
-        "atack": 3
+        "attack": 3
     },
 
     {
-        "key": "vanillaEssence",
-        "name": "Vanilla Essence",
+        "key": "vanillaPods",
+        "name": "Vanilla Pods",
         "image": "https/ceva/ceva",
         "type": CardTypes.Minion,
         "minion_type": MinionTypes.Ingredient,
         "class": FlavorClass.Sweet,
         "cost": 3,
         "hp": 2,
-        "atack": 2
+        "attack": 2
     },
 
 
@@ -112,19 +123,19 @@ module.exports = [
         "class": FlavorClass.Salty,
         "cost": 4,
         "hp": 6,
-        "atack": 5
+        "attack": 5
     },
 
     {
-        "key": "brine",
-        "name": "Brine",
+        "key": "fishBrine",
+        "name": "Fish Brine ",
         "image": "https/ceva/ceva",
         "type": CardTypes.Minion,
-        "minion_type": MinionTypes.Ingredient,
+        "minion_type": MinionTypes.Receipe,
         "class": FlavorClass.Salty,
         "cost": 8,
         "hp": 8,
-        "atack": 8
+        "attack": 8
     },
 
 
@@ -139,11 +150,11 @@ module.exports = [
         "class": FlavorClass.Sour,
         "cost": 6,
         "hp": 3,
-        "atack": 4
+        "attack": 4
     },
 
     {
-        "key": "brigooseberry",
+        "key": "gooseberry",
         "name": "Gooseberry",
         "image": "https/ceva/ceva",
         "type": CardTypes.Minion,
@@ -151,7 +162,7 @@ module.exports = [
         "class": FlavorClass.Sour,
         "cost": 6,
         "hp": 9,
-        "atack": 6
+        "attack": 6
     },
 
 
@@ -227,7 +238,7 @@ module.exports = [
     // sour
 
     {
-        "key": "lemonJuice",
+        "key": "lemonade",
         "name": "Pour Lemon Juice",
         "image": "https/ceva/ceva",
         "type": CardTypes.Spell,
